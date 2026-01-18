@@ -31,7 +31,7 @@ jobs:
       - name: Checkout Playwright tests
         uses: actions/checkout@v4
         with:
-          repository: therishitakerr/playwrighttests
+          repository: therishitakerr/sample-playwright-test-scripts
           token: ${{ secrets.GITHUB_TOKEN }}
           path: playwrighttests
 
